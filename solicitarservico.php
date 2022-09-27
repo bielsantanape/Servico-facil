@@ -13,8 +13,8 @@
             $profissional = $_POST['profissional'];
             $servico = $_POST['servico'];
             $preco;
-            $credito=10;
-            $valor= $preco - $credito;
+            $credito = 10;
+           
             switch($servico){
                 case "Vazamento de Torneira":
                     $preco = 10;
@@ -35,6 +35,7 @@
                     $preco = 50;
                     break;
             }
+            $valor = $preco - $credito;
         ?>
         <form action="confirmacaosolicitacao.php" method="post">
             <h2>Confirme o preço do serviço</h2>
