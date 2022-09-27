@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="sheets/style.css">
+        <title>Avalie Seu Prestador</title>
+    </head>
+    <body>
+        <form action="enviar-email.php" method="POST">
+            <h2>Avalie seu prestador</h2>
+            <div>
+                <p>Tipo de serviço</p>
+                <select class="" name="idade" required>
+                    <option ></option>
+                    <option value="0">Bombeiro Hidráulico</option>
+                    <option value="1">Eletricista</option>
+                    <option value="2">Marceneiro</option>
+                    <option value="3">Chaveiro</option>
+                </select>
+                <br><br>
+                <p>Serviço</p>
+                <select class="" name="servico" required>
+                    <option ></option>
+                    <option value="0">Bombeiro Hidráulico</option>
+                    <option value="4">Eletricista</option>
+                    <option value="5">Marceneiro</option>
+                    <option value="6">Chaveiro</option>
+                </select>
+                <br><br>        
+                <p>Data: </p>
+                <input type="date" name="data" placeholder="" required>
+                <br><br>
+                <p>Prestador:</p>
+                <input type="text" name="prestador" placeholder="" required>
+                <p>Nota:</p>
+                <div class="nota" required>
+                    <div>
+                        <input type="radio" id="1" name="nota" value="1"checked>
+                        <label for="1">1</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="2" name="nota" value="2"checked>
+                        <label for="2">2</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="3" name="nota" value="3"checked>
+                        <label for="3">3</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="4" name="nota" value="4"checked>
+                        <label for="4">4</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="5" name="nota" value="5"checked>
+                        <label for="5">5</label>
+                    </div>
+                </div>
+                <br>
+                <p>Comentário:</p>
+                <input type="text" name="comentario" placeholder="Opcional">
+                <br><br>
+                <input type="submit" name="registrar" value="Registrar Avaliação">
+            </div>
+        </form>
+
+    </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="sheets/style.css">
+        <link rel="stylesheet" href="sheets/script.js">
+        <title>Solicitar Serviço</title>
+    </head>
+    <body>
+        <form action="solicitarservico.php" method="post">
+            <div class="lista">
+                <h2>Escolha o serviço desejado</h2>
+                <p>Tipo de serviço</p>
+                <select class="" name="profissional" required>
+                    <option ></option>
+                    <option value="Bombeiro Hidráulico">Bombeiro Hidráulico</option>
+                    <option value="Eletricista">Eletricista</option>
+                    <option value="Marceneiro">Marceneiro</option>
+                    <option value="Chaveiro">Chaveiro</option>
+                </select>
+                <br><br>
+                <select class="" name="servico" required>
+                    <option ></option>
+                    <option value="Vazamento de Torneira">Vazamento de Torneira.</option>
+                    <option value="Vazamento em Descarga">Vazamento em Descarga.</option>
+                    <option value="Vazamento no teto">Vazamento no teto.</option>
+                    <option value="Troca de Pia">Troca de Pia.</option>
+                    <option value="Instalação elétrica">Instalação elétrica.</option>
+                </select>
+                <br><br>
+                <input type="submit" name="acao" value="Escolher">
+            </div>
+        </form>
+        
+        <footer>
+            
+        </footer>
+    </body>
+</html>
