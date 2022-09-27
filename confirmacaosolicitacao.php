@@ -18,7 +18,7 @@
         <p>Número da solicitação: <?php echo("$numero");?></p>
         <p>Prestador: <?php echo("artur@gmail.com");?></p> 
 
-        <a href="telasolicitacoes.html">Ir para sua lista de solicitações</a>
+        <a href="telasolicitacoes.php">Ir para sua lista de solicitações</a>
         </div>
 
         <footer>
