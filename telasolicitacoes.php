@@ -29,7 +29,7 @@
           <tr>
             <td><?php echo("$numeroSolicitacao");?></td>
             <td><?php echo("$data");?></td>
-            <td><?php echo("$profissional - $servico");?>
+            <td><?php echo("$profissional - $servico");?></td>
             <td><?php echo("Aguardando início");?></td>
 </td>   
           </tr>
