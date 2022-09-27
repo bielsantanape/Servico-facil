@@ -14,11 +14,13 @@
         ?>
 
         <div class="confirmarcadastro">
-        <h2>Solicitação confirmada</h2>
-        <p>Número da solicitação: <?php echo("$numero");?></p>
-        <p>Prestador: <?php echo("artur@gmail.com");?></p> 
+			<form action="telasolicitacoes.php" method="post">
+				<h2>Solicitação confirmada</h2>
+				<p>Número da solicitação: <?php echo("$numero");?></p>
 
-        <a href="telasolicitacoes.php">Ir para sua lista de solicitações</a>
+				<p>Prestador: <?php echo("artur@gmail.com");?></p> 
+				<input type="submit" name="acao" value="Ir para sua lista de solicitações">
+			</form>
         </div>
 
         <footer>
